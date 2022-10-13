@@ -1,0 +1,76 @@
+@media (max-width: 991.98px) { 
+    
+    .mainbanner{
+        height:100vh!important;
+        width: 100%!important;
+        background: url("images/home.jpg")!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+        background-size: cover !important;
+        position: relative!important;
+    }
+    .mqLogo{
+        justify-content: center!important;
+    }
+    .myNavUl{
+        margin-top: 5vh!important;
+       
+    }
+    .myNavUl .nav-item a{
+        font-size: 0.9rem!important;
+    }
+    .navHoverClass:hover{
+        border: 1px solid white!important;
+        border-radius: 20px!important;
+        background-color:rgb(68, 93, 233)!important ;
+        padding-left: 0.5rem!important;
+        padding-right: 0.5rem!important;
+        transition: 0.3s!important;
+       
+    }
+ }
+ @media (max-width: 767.98px) { 
+    
+    .myNavUl{
+        margin-top: 8vh!important;
+       
+    }
+    .serviceSection{
+        height: 100vh!important;
+        margin-top: 1.5vh!important;
+        margin-bottom: 1.5vh!important;
+    }
+    .servicesImg{
+        height: 33vh!important;
+        width: 100%!important;
+    }
+    .cardHoverClass{
+        margin-top: 2vh!important;
+        margin-bottom: 2vh!important;
+    }
+    .cardHoverClass:hover{
+        background-color: tomato!important;
+        cursor: pointer!important;
+        border-color: transparent!important;
+        color: white!important;
+        transition: 0.3s!important;
+    }
+    .clients{
+        margin-top: 50vh!important;
+    }
+ }
+
+ @media (max-width: 575.98px){
+    .clients{
+        margin-top: 60vh!important;
+    }
+    
+
+ }
+ @media (max-width: 450.98px){
+    .clients{
+        margin-top: 70vh!important;
+    }
+    
+
+ }

@@ -1,0 +1,173 @@
+/*font-family: 'Baloo 2', cursive;*/
+/*font-family: 'Fira Sans', sans-serif;*/
+
+.mainbanner{
+    height: 65vh!important;
+    width: 100%!important;
+    background: url("images/home.jpg")!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover !important;
+    position: relative!important;
+}
+.balooclass{
+    font-family: 'Baloo 2', cursive!important;
+
+}
+.balooclass:hover{
+    color:tomato!important ;
+    transition: 0.3s;
+}
+.pclass{
+    font-family: 'Fira Sans', sans-serif!important;
+}
+.mymainbtn{
+    background-color: rgb(68, 93, 233)!important;
+    color: white!important;
+    padding: 0.2rem 0.5rem!important;
+    border: 1px solid white!important;
+    border-radius: 10px!important;
+}
+.mymainbtn:hover{
+    background-color: white!important;
+    color: rgb(68, 93, 233)!important;
+    padding: 0.2rem 0.5rem!important;
+    border: 1px solid rgb(68, 93, 233)!important;
+    border-radius: 10px!important;
+    transition: 0.5s!important;
+
+}
+
+/*navbar*/
+.navbar{
+    position: absolute!important;
+    top: 0!important;
+    left: 0px!important;
+    width: 100%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    background: transparent!important;
+    font-family: 'Baloo 2', cursive!important;
+    
+}
+.myLogo{
+    height: 10vh!important;
+    width: 15vh!important;
+    border-radius: 20px!important;
+}
+.myNavUl{
+    width: 100%!important;
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: center!important;
+    justify-content: space-around!important;
+    
+    
+   
+    
+}
+.navHoverClass{
+
+    border: 1px solid transparent!important;
+    border-radius: 20px!important;
+    
+}
+.navHoverClass:hover{
+    border: 1px solid white!important;
+    border-radius: 20px!important;
+    background-color:rgb(68, 93, 233)!important ;
+    transition: 0.3s!important;
+   
+}
+
+
+/*services*/
+.serviceSection{
+    height: 35vh!important;
+    
+}
+.servicesImg{
+    height: 30vh!important;
+    width: 100%!important;
+}
+.cardHoverClass:hover{
+    background-color: tomato!important;
+    cursor: pointer!important;
+    border-color: transparent!important;
+    color: white!important;
+    transition: 0.3s!important;
+}
+
+
+/*clients*/
+.clients{
+    margin-top: 25vh!important;
+    margin-bottom: 5vh!important;
+    height: 60vh!important;
+    background: url("images/bg4.jpg")!important;
+    background-repeat:no-repeat!important;
+    background-position: center!important;
+    background-size: 100% 100% !important;
+
+}
+.clientsImageSection{
+    width: 70vw!important;
+    
+    height: 20vh!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+
+/*ContactUS*/
+.contactSection{
+    height: 80vh!important;
+    background: url("images/contactbg7.jpg")!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: 100% 100%!important;
+    background-attachment: fixed!important;
+    
+
+}
+input, textarea{
+    background-color:rgb(243, 208, 202)!important;
+    border: 1px solid black !important;
+    opacity: 0.5!important;
+}
+label:hover{
+    color: tomato!important;
+}
+textarea:hover{
+    border: 1px solid tomato!important;
+}
+input:hover{
+    border: 1px solid tomato!important;
+}
+
+body{
+    height: fit-content!important;
+    background-color: rgb(243, 208, 202)!important;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1511dd;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(243, 208, 202);
+  }
